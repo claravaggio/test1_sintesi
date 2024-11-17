@@ -7,7 +7,7 @@ let greenRectX; // Posizione iniziale del rettangolo verde
 let greenRectY; // Posizione verticale del rettangolo verde
 let greenRectWidth = 80; // Larghezza del rettangolo verde
 let greenRectHeight = rectHeight;
-let greenSpeed = -1.5; // Velocità del rettangolo verde verso sinistra
+let greenSpeed = -0.4; // Velocità del rettangolo verde verso sinistra
 let greenRectVisible = false; // Flag per mostrare il rettangolo verde
 
 let containerX; // Posizione iniziale del contorno
