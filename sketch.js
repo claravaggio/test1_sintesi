@@ -96,6 +96,7 @@ function draw() {
     if (rectX > containerX + containerWidth - rectWidth) {
       rectX = containerX + containerWidth - rectWidth;
     }
+    greenRectVisible = false;
   } else {
     // Riduci il contatore quando non tieni premuto invio
     counter -= decreaseFactor;
